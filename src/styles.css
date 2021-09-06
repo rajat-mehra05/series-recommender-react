@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  color: white;
+  font-family: "Lora", serif;
+  background-color: #374151;
+  padding: 1.4rem;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+  border-bottom-left-radius: 1rem;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+body {
+  background-color: #f9fafb;
+}
+
+h3 {
+  font-family: "Lora", serif;
+  text-align: center;
+  margin: 1.4rem 0;
+}
+
+.category {
+  text-align: center;
+}
+
+.btn-category {
+  margin: 0.8rem;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 25px;
+  font-family: "Lora", serif;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  border: none;
+  box-shadow: 0 1px 10px rgba(146, 161, 176, 0.15);
+  cursor: pointer;
+}
+
+.btn-category:hover {
+  background-color: grey;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.series-category {
+  text-align: center;
+  margin: 1.5rem 0 0 1rem;
+  font-family: "Lora", serif;
+  display: flex;
+  justify-content: center;
+}
+
+.series-category li {
+  list-style: none;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  box-shadow: 0 1px 4px rgba(15, 53, 90, 0.15);
+  border-top-left-radius: 1rem;
+}
+
+.s-name {
+  color: green;
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding-bottom: 0.5rem;
+}
+
+.s-rating {
+  color: red;
+  font-size: 1rem;
+}
